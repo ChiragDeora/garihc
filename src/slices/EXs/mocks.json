@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"work": {
+				"__TYPE__": "FieldContent",
+				"value": "sunlight",
+				"type": "Text"
+			},
+			"year": {
+				"__TYPE__": "FieldContent",
+				"value": "important",
+				"type": "Text"
+			},
+			"tillyear": {
+				"__TYPE__": "FieldContent",
+				"value": "column",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

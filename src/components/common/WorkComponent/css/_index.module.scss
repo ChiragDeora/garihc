@@ -1,0 +1,43 @@
+.workContainer {
+  width: 100%;
+
+  &:nth-child(even) {
+    background-color: var(--color-gray);
+  }
+}
+
+.Link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10pt;
+
+  &:hover {
+    .workYear {
+      opacity: 1;
+    }
+  }
+}
+
+a.Link {
+  &:hover {
+    .workTitle {
+      &::after {
+        content: ' ↗';
+      }
+    }
+  }
+}
+
+// .workTitle {
+//   max-width: 50%;
+//   width: 50%;
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+// }
+
+.workYear {
+  opacity: 0.3;
+  color: var(--color-white);
+  mix-blend-mode: difference;
+}

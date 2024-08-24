@@ -1,0 +1,40 @@
+{
+  "id": "e_xs",
+  "type": "SharedSlice",
+  "name": "EXs",
+  "description": "EXs",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Base",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "work": {
+          "type": "Text",
+          "config": {
+            "label": "work",
+            "placeholder": ""
+          }
+        },
+        "year": {
+          "type": "Text",
+          "config": {
+            "label": "year",
+            "placeholder": ""
+          }
+        },
+        "tillyear": {
+          "type": "Text",
+          "config": {
+            "label": "till-year",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

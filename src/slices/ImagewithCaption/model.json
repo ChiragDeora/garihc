@@ -1,0 +1,36 @@
+{
+  "id": "imagewith_caption",
+  "type": "SharedSlice",
+  "name": "ImagewithCaption",
+  "description": "ImagewithCaption",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "workimage": {
+          "type": "Image",
+          "config": {
+            "label": "WorkImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Caption (optional)",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "image_two_column",
+  "type": "SharedSlice",
+  "name": "ImageTwoColumn",
+  "description": "ImageTwoColumn",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "image_one": {
+          "type": "Image",
+          "config": {
+            "label": "Image One",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image_two": {
+          "type": "Image",
+          "config": {
+            "label": "Image Two",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Caption (optional)",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

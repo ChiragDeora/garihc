@@ -1,0 +1,19 @@
+.modal {
+  position: relative;
+  z-index: 50;
+}
+
+.button {
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-gray);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-wrapper {
+  position: fixed;
+  inset: 1rem;
+  z-index: 51;
+  overflow-y: auto;
+  background-color: var(--color-white);
+}

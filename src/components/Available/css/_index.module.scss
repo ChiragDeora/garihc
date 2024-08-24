@@ -1,0 +1,50 @@
+.availableContainer {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-gray);
+  border-radius: 10pt;
+  padding-block: 5pt;
+  padding-inline: 10pt;
+  gap: 20pt;
+
+  @media (max-width: 450px) {
+    width: 100%;
+  }
+}
+
+.availableLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5pt;
+
+  .availbility-signal {
+    --size: 7pt;
+
+    width: var(--size);
+    height: var(--size);
+    border-radius: 999vw;
+    position: relative;
+    background-color: var(--background-color);
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      inset: 0;
+      border-radius: 999vw;
+      filter: blur(5px);
+      background-color: var(--background-color);
+    }
+
+    &.available {
+      --background-color: var(--color-green);
+    }
+
+    &.unavailable {
+      --background-color: var(--color-red);
+    }
+  }
+}
