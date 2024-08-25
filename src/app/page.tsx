@@ -20,7 +20,9 @@ export default async function HomePage() {
         <PrismicRichText field={home?.about} />
         {/* eslint-disable-next-line @typescript-eslint/no-non-null-assertion */}
         <Available ava={home!.available} />
+        {/* @ts-expect-error: Ignoring async function usage */}
         <Work />
+        {/* @ts-expect-error: Ignoring async function usage */}
         <Exp />
       </Container>
     </>
